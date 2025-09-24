@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UC Berkeley / LBL Applied Math Seminar</title>
+	<!-- <base href="https://mechanics-berkeley.github.io/" /> -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../default.css" />
+	<meta name="description" content="An outreach seminar hosted by the USACM student chapter at berkeley" />
+	<meta name="keywords" content="Berkeley" />
+	<meta name="author" content="Ian Li" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="../index.html">MechBytes Talks</a></h1>
+			<h2>USACM student chapter at UC Berkeley</h2>
+			</div>
+
+			<h3>Organized by <a href=" ">Xuan Hu</a >
+				
+		</div>
+            <h4 class="top">High Performance Computing and Finite Element Analysis</h4>
+            <h5>
+                <b>Claudio M. Perez, UC Berkeley Ph.D. student (advised by Prof. Khalid M. Mosalam)</b>
+            </h5>
+            <h5>
+                09/26, 2025 at 3:00PM-3:30PM in 745 Davis (for in-person talks) and <a href="https://berkeley.zoom.us/j/6568186472">https://berkeley.zoom.us/j/6568186472</a>
+            </h5>
+            <p><b>Abstract:</b> 
+				Nonlinear finite element analysis (FEA) is a cornerstone of computational
+				mechanics, but its computational demands remain a central challenge.
+				This presentation will first provide a brief overview of standard nonlinear
+				FEA procedures, establishing the computational flow from local element
+				evaluations to global system solution. We will then examine implementation
+				details that significantly aﬀect performance in large-scale simulations.
+				The dominant cost lies in solving the global system of equations,
+				where choices in degree-of-freedom (DOF) numbering, solver type,
+				and parallelization strategy (shared vs. distributed memory) directly
+				influence eﬃciency and scalability. Beyond the global solver, we will
+				consider often-overlooked aspects of element-level computations, including
+				allocation and manipulation of local arrays. Issues such as memory alignment,
+				heap versus stack allocation, and return semantics can meaningfully impact
+				runtime. By highlighting these practical considerations, the talk aims
+				to provide insight into both high-level algorithmic choices and low-level
+				implementation details that determine performance in modern finite
+				element frameworks.</p>
+
+			<p><b>About the speaker:</b> 
+				Claudio M. Perez is a PhD student specializing in scientific computing.
+				His research focuses on computational mechanics and structural health
+				monitoring, with a particular interest in diﬀerentiable computing.
+				As a core member of the STAIRLab, Claudio has designed the computational
+				backend and curated the software ecosystem employed by the research lab
+				to execute large-scale regional models of civil infrastructure.
+				Claudio is the active maintainer of the xara Python package for nonlinear
+				finite element analysis.</p>
+            <br/>
+            <div id="foot">
+                <div class="links">
+                    <a href="../index.html">USACM student chapter at UC Berkeley</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
